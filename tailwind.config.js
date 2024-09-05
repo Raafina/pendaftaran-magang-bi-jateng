@@ -12,6 +12,7 @@ export default {
       fontFamily: { circular: ["Circular STD"] },
       colors: {
         blue: "#005596",
+        blueHover: "#1A467A",
         grey: "#191825",
       },
     },

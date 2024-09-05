@@ -1,15 +1,15 @@
 const Formulir = () => {
   return (
     <>
-      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:py-8 xl:px-4">
+      <div className="container mx-auto px-4 sm:px-6 sm:py-7 md:px-8 lg:py-8 xl:px-4">
         <div className="flex flex-col items-center justify-center min-h-screen">
           <div className="w-full max-w-4xl bg-white p-8 rounded-md shadow-md">
+            <h1 className="text-3xl md:text-4xl leading-tight  text-center  mb-5">
+              Formulir Pendaftaran
+            </h1>
             <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Data Pribadi Section */}
               <div>
-                <h2 className="text-xl  mb-4 text-center md:text-left font-sans">
-                  Data Pribadi
-                </h2>
                 <div className="space-y-4">
                   <div>
                     <label className="text-base  text-grey font-sans">
@@ -102,9 +102,6 @@ const Formulir = () => {
 
               {/* Berkas Section */}
               <div>
-                <h2 className="text-xl font-sans mb-4 text-center md:text-left">
-                  Berkas
-                </h2>
                 <div className="space-y-4">
                   <div>
                     <label
@@ -165,10 +162,10 @@ const Formulir = () => {
                 </div>
 
                 {/* Buttons */}
-                <div className="flex justify-end mt-6 space-x-4">
+                <div className="flex justify-center md:justify-end mt-6 ">
                   <button
                     type="submit"
-                    className="px-6 py-2 text-white bg-blue rounded-full"
+                    className="px-12 md:px-9 py-2 text-white bg-blue hover:bg-blueHover rounded-full "
                   >
                     Daftar
                   </button>

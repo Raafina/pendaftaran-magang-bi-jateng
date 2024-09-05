@@ -16,9 +16,9 @@ const Hero = () => {
             Program Magang di Kantor Perwakilan Bank Indonesia Provinsi Jawa
             Tengah
           </p>
-          <div className="flex flex-col md:flex-row gap-2 mt-5 md:mt-8 lg:mt-5 justify-center ">
+          <div className="flex flex-col md:flex-row gap-2 mt-5 md:mt-8 lg:mt-5 justify-center items-center ">
             <a href="/daftar">
-              <button className="bg-blue text-white font-circular font-bold px-20 py-4 rounded-full drop-shadow-getStarted">
+              <button className="bg-blue hover:bg-blueHover text-white font-circular font-bold px-20 py-4 rounded-full drop-shadow-getStarted ">
                 Daftar
               </button>
             </a>

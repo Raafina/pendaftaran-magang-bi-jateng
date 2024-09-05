@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
+import "flowbite";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

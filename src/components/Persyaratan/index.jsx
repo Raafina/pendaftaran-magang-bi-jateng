@@ -4,14 +4,14 @@ const Persyaratan = () => {
   return (
     <div className="container mx-auto px-4 py-14 sm:px-6 md:px-8 lg:py-8 xl:px-4">
       <div className="grid grid-cols-12 ">
-        <div className="col-span-12 lg:col-span-6 flex items-center hidden lg:flex">
+        <div className="col-span-12 lg:col-span-6 items-center hidden lg:flex">
           <img src={PersyaratanImg} alt="Persyaratan" />
         </div>
         <div className="col-span-12 lg:col-span-6 mt-6">
-          <h1 className="text-5xl text-center lg:text-left mb-5">
+          <h1 className="text-[40px] md:text-5xl  leading-tight  text-center lg:text-left mb-5">
             Persyaratan
           </h1>
-          <ol class="list-decimal list-inside  text-base md:text-[18px] text-grey font-sans leading-7">
+          <ol class="list-decimal list-inside text-base md:text-[18px] text-grey font-sans leading-7">
             <li className="">
               Surat Pengantar dari Universitas/Sekolah.
               <ul class="list-disc list-inside ml-6 space-y-1">

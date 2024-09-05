@@ -6,22 +6,34 @@ const Footer = () => {
       <div class="py-4 px-4">
         <div className="container mx-auto flex flex-col">
           <div class="grid grid-cols-12">
-            <div class="col-span-6 mb-6 md:mb-0">
+            <div class="col-span-12 lg:col-span-6 mb-6 md:mb-0">
               <a href="/" class="flex items-center">
                 <img src={BILogo} class="h-12" alt="BI Logo" />
               </a>
             </div>
-            <div class="col-span-6 text-end">
-              <div className=" font-sans ">
-                <h2 class="mb-2 text-gray-900 font-bold dark:text-white">
+            <div class="col-span-12 lg:col-span-6 md:mt-5 lg:mt-0 lg:text-end">
+              <div className=" font-sans text-grey opacity-80">
+                <h2 class="mb-2  font-bold dark:text-white text-blue">
                   CONTACT US
                 </h2>
-                <p>Kantor Perwakilan Bank Indonesia Provinsi Jawa Tengah</p>
-                <p>
-                  Jl. Imam Bardjo SH No.4, Pleburan, Kec. Semarang Sel., Kota
-                  Semarang, Jawa Tengah 50241
-                </p>
-                <p>humas.bijateng@bi.go.id</p>
+                <ul>
+                  <li>
+                    <a href="https://maps.app.goo.gl/6YCtv4GhMYqq1X3u8">
+                      Kantor Perwakilan Bank Indonesia Provinsi Jawa Tengah
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://maps.app.goo.gl/6YCtv4GhMYqq1X3u8">
+                      Jl. Imam Bardjo SH No.4, Pleburan, Kec. Semarang Sel.,
+                      Kota Semarang, Jawa Tengah 50241
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:humas.bijateng@bi.go.id">
+                      humas.bijateng@bi.go.id
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
