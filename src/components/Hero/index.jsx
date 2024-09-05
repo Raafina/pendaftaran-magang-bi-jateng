@@ -2,7 +2,7 @@ import HeroImage from "../../assets/image/join-us.svg";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:py-8 xl:px-4">
+    <div className="container mx-auto py-8 px-4 sm:px-6 md:px-8 lg:py-8 xl:px-4">
       <div className="grid grid-cols-12">
         <div className="col-span-12 lg:col-span-7 order-1 lg:order-2">
           <img src={HeroImage} alt="Hero 1" />

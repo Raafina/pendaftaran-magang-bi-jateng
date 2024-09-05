@@ -1,7 +1,7 @@
 const FAQAccor = () => {
   return (
     <>
-      <div className="container  mx-auto px-4 py-3 sm:px-6 md:px-8 lg:py-32 xl:px-4">
+      <div className="container  mx-auto px-4 pt-4 pb-11 sm:px-6 md:px-8 lg:py-32 xl:px-4">
         <div className="grid grid-cols-12">
           <div className="col-span-12 lg:col-span-5 ">
             <h1 className="text-[40px] md:text-5xl  leading-tight  text-center lg:text-left mb-5">
@@ -19,7 +19,7 @@ const FAQAccor = () => {
                   type="button"
                   class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                   data-accordion-target="#accordion-collapse-body-1"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="accordion-collapse-body-1"
                 >
                   <p className="text-base md:text-[18px] font-sans font-normal text-grey ">
