@@ -1,7 +1,7 @@
 const Formulir = () => {
   return (
     <>
-      <div className="container mx-auto px-4 sm:px-6 sm:py-7 md:px-8 lg:py-8 xl:px-4">
+      <div className="container mx-auto px-4 pb-10 sm:px-6 sm:py-7 md:px-8 lg:py-8 xl:px-4">
         <div className="flex flex-col items-center justify-center min-h-screen">
           <div className="w-full max-w-4xl bg-white p-8 rounded-md shadow-md">
             <h1 className="text-3xl md:text-4xl leading-tight  text-center  mb-5">

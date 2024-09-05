@@ -2,7 +2,7 @@ import PersyaratanImg from "./../../assets/image/persyaratan.svg";
 
 const Persyaratan = () => {
   return (
-    <div className="container mx-auto px-4 py-14 sm:px-6 md:px-8 lg:py-8 xl:px-4">
+    <div className="container mx-auto px-4 pb-9 sm:px-6 md:px-8 lg:py-8 xl:px-4">
       <div className="grid grid-cols-12 ">
         <div className="col-span-12 lg:col-span-6 items-center hidden lg:flex">
           <img src={PersyaratanImg} alt="Persyaratan" />
